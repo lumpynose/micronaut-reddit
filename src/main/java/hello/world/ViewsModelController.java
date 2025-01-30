@@ -6,7 +6,7 @@ import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
 import io.micronaut.views.View;
 
-@Controller("/views")
+@Controller("/viewsmodel")
 class ViewsModelController {
     @View("home")
     @Get("/")
