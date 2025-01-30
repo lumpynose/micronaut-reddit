@@ -44,7 +44,11 @@
     <dependency>
       <groupId>io.micronaut.views</groupId>
       <artifactId>micronaut-views-core</artifactId>
-      <!-- <version>5.6.0</version> -->
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.micronaut.views/micronaut-views-thymeleaf -->
+    <dependency>
+      <groupId>io.micronaut.views</groupId>
+      <artifactId>micronaut-views-thymeleaf</artifactId>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
