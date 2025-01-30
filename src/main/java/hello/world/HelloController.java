@@ -3,7 +3,6 @@ package hello.world;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
-import io.micronaut.context.annotation.Property;
 import io.micronaut.runtime.server.EmbeddedServer;
 
 @Controller("/hello") // (1)
