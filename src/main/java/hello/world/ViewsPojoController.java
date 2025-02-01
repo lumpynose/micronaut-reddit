@@ -7,7 +7,7 @@ import io.micronaut.views.View;
 
 @Controller("/viewspojo")
 class ViewsPojoController {
-    @View("home")
+    @View("home.html")
     @Get("/pojo")
     public HttpResponse<Person> pojo() {
         return HttpResponse.ok(new Person("sdelamo", true));

@@ -8,7 +8,7 @@ import io.micronaut.views.View;
 
 @Controller("/viewsmodel")
 class ViewsModelController {
-    @View("home")
+    @View("home.html")
     @Get("/")
     public HttpResponse<?> index() {
         return HttpResponse.ok(CollectionUtils.mapOf("loggedIn", true, "username", "sdelamo"));
