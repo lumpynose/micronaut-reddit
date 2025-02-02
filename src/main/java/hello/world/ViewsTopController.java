@@ -1,10 +1,12 @@
 package hello.world;
 
-import io.micronaut.core.util.*;
-import io.micronaut.http.*;
-import io.micronaut.http.annotation.*;
-import io.micronaut.views.*;
-import org.slf4j.*;
+import io.micronaut.core.util.CollectionUtils;
+import io.micronaut.http.HttpResponse;
+import io.micronaut.http.annotation.Controller;
+import io.micronaut.http.annotation.Get;
+import io.micronaut.views.View;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Controller("/")
 class ViewsTopController {

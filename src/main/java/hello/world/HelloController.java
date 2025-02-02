@@ -7,11 +7,10 @@ import io.micronaut.runtime.server.EmbeddedServer;
 
 @Controller("/hello") // (1)
 public class HelloController {
-    // @Property(name = "micronaut.server.host")
-    String name;
-
     private final String host;
     private final int port;
+    // @Property(name = "micronaut.server.host")
+    String name;
 
     public HelloController(EmbeddedServer embeddedServer) {
         host = embeddedServer.getHost();
