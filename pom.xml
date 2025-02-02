@@ -12,6 +12,7 @@
         <artifactId>micronaut-parent</artifactId>
         <version>4.7.4</version>
     </parent>
+
     <properties>
         <packaging>jar</packaging>
         <jdk.version>21</jdk.version>
@@ -45,7 +46,6 @@
             <groupId>io.micronaut.views</groupId>
             <artifactId>micronaut-views-core</artifactId>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.micronaut.views/micronaut-views-thymeleaf -->
         <dependency>
             <groupId>io.micronaut.views</groupId>
             <artifactId>micronaut-views-thymeleaf</artifactId>
@@ -81,6 +81,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -127,5 +128,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
