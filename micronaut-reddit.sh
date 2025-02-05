@@ -1,0 +1,1 @@
+java -Dmicronaut.environments=prod -jar micronaut-reddit.jar
