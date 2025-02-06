@@ -4,9 +4,11 @@
 - [API Reference](https://docs.micronaut.io/4.7.4/api/index.html)
 - [Configuration Reference](https://docs.micronaut.io/4.7.4/guide/configurationreference.html)
 - [Micronaut Guides](https://guides.micronaut.io/index.html)
+
 ---
 
 - [Micronaut Maven Plugin documentation](https://micronaut-projects.github.io/micronaut-maven-plugin/latest/)
+
 ## Feature micronaut-aot documentation
 
 - [Micronaut AOT documentation](https://micronaut-projects.github.io/micronaut-aot/latest/guide/)

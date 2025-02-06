@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @MicronautTest // (1)
 public class HelloClientSpec {
-
     @Inject
     HelloClient client; // (2)
 

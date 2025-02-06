@@ -19,7 +19,8 @@ public class HelloController {
 
     @Get(produces = MediaType.TEXT_PLAIN) // (2)
     public String index() {
-        return "Hello World" + " " + host + " " + port; // (3)
+        // return "Hello World" + " " + host + " " + port; // (3)
+        return "Hello World"; // (3)
     }
 }
 

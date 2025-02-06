@@ -12,7 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @MicronautTest
 public class HelloControllerSpec {
-
     @Inject
     EmbeddedServer server; // (1)
 

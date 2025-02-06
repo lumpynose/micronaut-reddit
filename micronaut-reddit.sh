@@ -1,1 +1,4 @@
-java -Dmicronaut.environments=prod -jar micronaut-reddit.jar
+export MICRONAUT_CONFIG_FILES=/usr/local/etc/micronaut/application-reddit.properties
+export MICRONAUT_ENVIRONMENTS=reddit
+
+java  -jar micronaut-reddit.jar
