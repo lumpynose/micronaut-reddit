@@ -7,10 +7,10 @@ import reactor.core.publisher.Mono;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@MicronautTest // (1)
+@MicronautTest
 public class HelloClientSpec {
     @Inject
-    HelloClient client; // (2)
+    HelloClient client;
 
     @Test
     public void testHelloWorldResponse() {

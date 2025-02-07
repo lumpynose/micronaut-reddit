@@ -13,11 +13,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @MicronautTest
 public class HelloControllerSpec {
     @Inject
-    EmbeddedServer server; // (1)
+    EmbeddedServer server;
 
     @Inject
     @Client("/")
-    HttpClient client; // (2)
+    HttpClient client;
 
     @Test
     void testHelloWorldResponse() {

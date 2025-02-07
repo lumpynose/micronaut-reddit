@@ -7,8 +7,8 @@ import org.slf4j.LoggerFactory;
 
 @Singleton
 public class RedditConfig {
-    private static final Logger log
-            = LoggerFactory.getLogger(RedditConfig.class);
+    private static final Logger log =
+            LoggerFactory.getLogger(RedditConfig.class);
 
     @Property(name = "micronaut.server.host")
     private String host;
@@ -18,6 +18,12 @@ public class RedditConfig {
 
     @Property(name = "reddit.secret")
     private String secret;
+
+    @Property(name = "reddit.username")
+    private String userName;
+
+    @Property(name = "reddit.password")
+    private String password;
 
     public String getHost() {
         return host;
@@ -41,5 +47,21 @@ public class RedditConfig {
 
     public void setSecret(final String secret) {
         this.secret = secret;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(final String userName) {
+        this.userName = userName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(final String password) {
+        this.password = password;
     }
 }
